@@ -30,11 +30,6 @@ export default new Router({
       path: '/progress',
       name: 'progress',
       component: () => import('./views/Progress.vue')
-    },
-    {
-      path: '/game',
-      name: 'game',
-      component: () => import('./views/Game.vue')
     }
   ]
 })

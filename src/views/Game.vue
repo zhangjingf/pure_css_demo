@@ -1,5 +1,5 @@
 <template>
-  <form
+  <div
     class="screen"
     novalidate
   >
@@ -499,7 +499,7 @@
       CLICK OR TAP<br>
       TO RESTART
     </button>
-  </form>
+  </div>
 </template>
 <style lang="scss" scoped>
 /* Layout */
