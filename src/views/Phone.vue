@@ -158,7 +158,7 @@
 
 .background-panels {
   position: absolute;
-  // opacity .4
+  opacity: .4;
   top: 50%;
   left: 50%;
   display: flex;
