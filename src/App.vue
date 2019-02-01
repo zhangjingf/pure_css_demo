@@ -4,7 +4,12 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/phone">Phone</router-link> |
-      <router-link to="/progress">Progress</router-link>
+      <router-link to="/progress">Progress</router-link> |
+      <router-link to="/star">Star</router-link> |
+      <router-link to="/plum">Plum</router-link> |
+      <router-link to="/menu">Menu</router-link> |
+      <router-link to="/wave">Wave</router-link> |
+      <router-link to="/board">Board</router-link>
     </div>
     <router-view/>
   </div>

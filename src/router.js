@@ -30,6 +30,31 @@ export default new Router({
       path: '/progress',
       name: 'progress',
       component: () => import('./views/Progress.vue')
+    },
+    {
+      path: '/star',
+      name: 'star',
+      component: () => import('./views/Star.vue')
+    },
+    {
+      path: '/plum',
+      name: 'plum',
+      component: () => import('./views/Plum.vue')
+    },
+    {
+      path: '/menu',
+      name: 'menu',
+      component: () => import('./views/Menu.vue')
+    },
+    {
+      path: '/wave',
+      name: 'wave',
+      component: () => import('./views/Wave.vue')
+    },
+    {
+      path: '/board',
+      name: 'board',
+      component: () => import('./views/Board.vue')
     }
   ]
 })
