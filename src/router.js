@@ -52,9 +52,19 @@ export default new Router({
       component: () => import('./views/Wave.vue')
     },
     {
-      path: '/board',
-      name: 'board',
-      component: () => import('./views/Board.vue')
+      path: '/bar',
+      name: 'bar',
+      component: () => import('./views/Bar.vue')
+    },
+    {
+      path: '/hover',
+      name: 'hover',
+      component: () => import('./views/Hover.vue')
+    },
+    {
+      path: '/logo',
+      name: 'logo',
+      component: () => import('./views/Logo.vue')
     }
   ]
 })

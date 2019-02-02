@@ -259,7 +259,7 @@ p {
   flex-direction: column;
 
   justify-content: center;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .1);
 }
 
 /*

@@ -9,7 +9,9 @@
       <router-link to="/plum">Plum</router-link> |
       <router-link to="/menu">Menu</router-link> |
       <router-link to="/wave">Wave</router-link> |
-      <router-link to="/board">Board</router-link>
+      <router-link to="/bar">Bar</router-link> |
+      <router-link to="/hover">Hover</router-link> |
+      <router-link to="/logo">Logo</router-link>
     </div>
     <router-view/>
   </div>
@@ -28,7 +30,7 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding: 10px;
   a {
     font-weight: bold;
     color: #2c3e50;
